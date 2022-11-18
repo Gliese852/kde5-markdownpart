@@ -1,0 +1,2 @@
+tar: markdownpart name=@name@-@version@
+copy: *.patch
