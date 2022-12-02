@@ -16,3 +16,5 @@ Select the MIME type "text/markdown" and in the "Embedding" tab in the "Service 
 ## Issues
 
 Please report bugs and feature requests in the [KDE issue tracker](https://bugs.kde.org/enter_bug.cgi?product=markdownpart).
+
+## Diff 4
