@@ -24,6 +24,8 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMDeprecationSettings)
 include(FeatureSummary)
 
+# diff 1
+
 find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
     Widgets
 )
