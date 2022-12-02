@@ -30,6 +30,8 @@ find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
     Widgets
 )
 
+# diff 2
+
 find_package(KF5 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     I18n
     Parts
