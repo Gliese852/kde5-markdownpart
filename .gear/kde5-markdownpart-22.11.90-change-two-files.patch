@@ -1,0 +1,23 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 1c6d38a..31dbb05 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -41,6 +41,8 @@ ecm_set_disabled_deprecation_versions(QT 5.15.2
+     KF 5.91
+ )
+ 
++# diff 3
++
+ add_subdirectory(src)
+ 
+ ki18n_install(po)
+diff --git a/README.md b/README.md
+index a7c1e4a..4787b8a 100644
+--- a/README.md
++++ b/README.md
+@@ -16,3 +16,5 @@ Select the MIME type "text/markdown" and in the "Embedding" tab in the "Service
+ ## Issues
+ 
+ Please report bugs and feature requests in the [KDE issue tracker](https://bugs.kde.org/enter_bug.cgi?product=markdownpart).
++
++## Diff 4

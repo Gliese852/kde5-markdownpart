@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index c537aea..313e5f9 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -24,6 +24,8 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
+ include(ECMDeprecationSettings)
+ include(FeatureSummary)
+ 
++# diff 1
++
+ find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
+     Widgets
+ )

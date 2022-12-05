@@ -1,0 +1,3 @@
+spec: .gear/kde5-markdownpart.spec
+tar: v@version@:.
+copy: .gear/*.patch
