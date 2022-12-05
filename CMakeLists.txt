@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 
 # Release Service version, managed by release script
-set (RELEASE_SERVICE_VERSION_MAJOR "22")
-set (RELEASE_SERVICE_VERSION_MINOR "11")
-set (RELEASE_SERVICE_VERSION_MICRO "90")
+set (RELEASE_SERVICE_VERSION_MAJOR "23")
+set (RELEASE_SERVICE_VERSION_MINOR "03")
+set (RELEASE_SERVICE_VERSION_MICRO "70")
 set (RELEASE_SERVICE_COMPACT_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}${RELEASE_SERVICE_VERSION_MINOR}${RELEASE_SERVICE_VERSION_MICRO}")
 
 # Bump MARKDOWNPART_BASE_VERSION once new features are added
@@ -34,7 +34,7 @@ find_package(KF5 ${KF_MIN_VERSION} REQUIRED COMPONENTS
 )
 
 ecm_set_disabled_deprecation_versions(QT 5.15.2
-    KF 5.91
+    KF 5.101
 )
 
 add_subdirectory(src)
