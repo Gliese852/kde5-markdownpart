@@ -1,7 +1,7 @@
 %define _unpackaged_files_terminate_build 1
 
 Name: kde5-markdownpart
-Version: 22.11.90
+Version: MASTER
 Release: alt1
 %K5init
 
@@ -53,6 +53,9 @@ Extends: Ark, Kate, KDevelop, Konqueror, Krusader.
 %_datadir/metainfo/org.kde.markdownpart.metainfo.xml
 
 %changelog
+* Mon Dec 05 2022 Anton Golubev <golubevan@altlinux.org> MASTER-alt1
+- just merge master from gitlab
+
 * Mon Dec 05 2022 Anton Golubev <golubevan@altlinux.org> 22.11.90-alt1
 - initial build
 
